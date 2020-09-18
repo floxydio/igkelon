@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+	<title>Login Instageram</title>
+	<style>
+		body {
+			font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+		}
+	</style>
+</head>
+<body>
+	<div class="card text-center mt-4 container" style="box-shadow: 3px 3px 5px 6px #ccc; width: 25rem">
+
+		<img src="image/instagram.png" alt="" width="200px" 
+		height="200px" class="img-fluid mx-auto mt-3">
+  <div class="card-body">
+    <p class="card-text"></p>
+    <form action="#">
+    	<input type="text" name="" placeholder="Phone number, username or email" class="form-control">
+    	<input type="password" name="" placeholder="Password" class="form-control mt-2"><i class="fa fa-eye-slash mt-2" style="cursor:pointer; font-weight: bold;"> Show Password </i>
+
+    </form>
+    <button class="btn btn-info container mt-4" style="width: 15rem" onclick="buttonlogin()">Log in</button>
+  	<a href="#" onclick="buttonlogin()"><p class="mt-2"> Forgot Password?</p></a>
+  </div>
+</div>
+
+<div class="card text-center mt-4 container" style="box-shadow: 3px 3px 5px 6px #ccc; width: 25rem">
+  <div class="card-body">
+    <p class="card-text">Don't have an account? <a href="#" onclick="buttonlogin()">Sign up </a></p>
+</div>
+</div>
+<p class="text-center mt-4"> Get The App </p>
+<a href="#" onclick="buttonlogin()"><img src="image/appstore.png" alt="" class="mx-auto d-block" width="150px"></a>
+<p class="text-center mt-3"> Or </p>
+<a href="#" onclick="buttonlogin()"><img src="image/playstore.png" alt="" class="mx-auto d-block mt-3 mb-4" width="150px"></a> 
+
+<!-- Footer -->
+
+<footer>
+	<div class="container">
+	<hr>
+	<div class="d-flex justify-content-around">
+	<a href=""><p>About</p></a>
+	<a href=""><p>Help</p></a>
+	<a href=""><p>Press</p></a>
+	<a href=""><p>Api</p></a>
+	<a href=""><p>Jobs</p></a>
+	<a href=""><p>Privacy</p></a>
+	<a href=""><p>Terms</p></a>
+	<p class="float-right" style="font-size: 13px; font-weight: 300;">@2020 IO ROVELINO</p>
+	</div>
+
+</div>
+</footer>
+
+<script>
+	function buttonlogin() {
+
+
+Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Mau Kemana Kak!'
+})
+	}
+</script>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+</html>
